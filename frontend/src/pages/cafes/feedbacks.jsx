@@ -1,6 +1,6 @@
 import { Card, Pagination, TextField } from '@mui/material';
-import { useGetAllFeedbacks } from '../services/cafe';
-import FeedbackTabs from '../components/FeedbackTabs';
+import { useGetAllFeedbacks } from '../../services/cafe';
+import FeedbackTabs from '../../components/FeedbackTabs';
 import { useState } from 'react';
 
 const pageSize = 5;

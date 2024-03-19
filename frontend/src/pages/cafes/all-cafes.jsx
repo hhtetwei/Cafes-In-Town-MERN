@@ -1,12 +1,13 @@
 import { Pagination, Rating, TextField } from '@mui/material';
-import HeaderTabs from '../components/HeaderTabs';
-import { useGetAllCafes, useGetCafesDetailsById } from '../services/cafe';
+import HeaderTabs from '../../components/HeaderTabs';
+import { useGetAllCafes, useGetCafesDetailsById } from '../../services/cafe';
 import Image from 'next/image';
 import { useState } from 'react';
 import Link from 'next/link';
-import { Overall } from '../constants/constants';
 import { useRouter } from 'next/router';
 import { usePathname } from 'next/navigation';
+import Overall from '@/constants/constants';
+
 // import download from '../../public/download.jpeg';
 const pageSize = 5;
 
