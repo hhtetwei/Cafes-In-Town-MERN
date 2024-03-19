@@ -1,0 +1,35 @@
+{
+  "name": "cafe-in-town-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/hhtetwei/Cafes-In-Town-Backend.git"
+  },
+  "author": "grace",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hhtetwei/Cafes-In-Town-Backend/issues"
+  },
+  "homepage": "https://github.com/hhtetwei/Cafes-In-Town-Backend#readme",
+  "dependencies": {
+    "cloudinary": "^1.41.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.3",
+    "joi": "^17.12.0",
+    "joi-objectid": "^4.0.2",
+    "mongoose": "^8.1.0",
+    "multer": "^1.4.5-lts.1",
+    "multer-storage-cloudinary": "^4.0.0",
+    "nodemon": "^3.0.3",
+    "prettier": "^2.8.0",
+    "ramda": "^0.29.1"
+  }
+}
