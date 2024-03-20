@@ -5,7 +5,7 @@ import { useState } from 'react';
 
 const pageSize = 5;
 const Feedbacks = () => {
-  const { data: feedbacks, count } = useGetAllFeedbacks();
+  const { data: feedbacks, count, isLoading } = useGetAllFeedbacks();
   const [currentPage, setCurrentPage] = useState(1);
   // eslint-disable-next-line react-hooks/rules-of-hooks
   const [searchTerm, setSearchTerm] = useState('');
@@ -50,7 +50,9 @@ const Feedbacks = () => {
       </div>
 
       <div className="flex justify-center w-full">
+       
         <Card className="w-[50%] flex flex-wrap justify-center shadow-lg rounded-xl border border-cardBorder mb-10">
+          {isLoading && <div className='mt-5 text-xl'>Loading....</div>}
           {currentItems
             ? currentItems?.map((feedback, index) => {
                 console.log(currentItems);

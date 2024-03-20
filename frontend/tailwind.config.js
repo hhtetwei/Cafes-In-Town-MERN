@@ -20,6 +20,7 @@ module.exports = {
         textClr: '#B0A695',
         inputBorderClr: '#B0A695',
         warningClr: '#A0153E',
+        placeholderClr: "#DED0B6"
       },
     },
   },
