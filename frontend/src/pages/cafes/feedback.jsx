@@ -69,7 +69,7 @@ const Contact = () => {
 
                 <input
                   type="text"
-                  placeholder="Enter your name"
+                  placeholder="Enter Cafe Name"
                   className="w-[100%] border border-inputBorderClr mt-3 rounded-md p-2 placeholder-headerBg"
                   {...register('for')}
                 />
@@ -80,7 +80,7 @@ const Contact = () => {
                   Feedback <span className="text-warningClr">*</span>
                 </div>
                 <textarea
-                  placeholder="Enter your name"
+                  placeholder="Any Feedbacks...."
                   rows={10}
                   className="w-[100%] border border-inputBorderClr mt-3 rounded-md p-2 placeholder-headerBg"
                   {...register('feedback')}
