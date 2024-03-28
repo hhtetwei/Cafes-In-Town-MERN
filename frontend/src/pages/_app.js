@@ -23,14 +23,14 @@ export default function App({ Component, pageProps }) {
 
             gtag('config', 'G-ENQLLF2JQ3', {page_path: window.location.pathname});`}
           </Script> */}
-          <script async src="https://www.googletagmanager.com/gtag/js?id=G-ENQLLF2JQ3"></script>
+          {/* <script async src="https://www.googletagmanager.com/gtag/js?id=G-ENQLLF2JQ3"></script>
           <script>
             {`window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
 
           gtag('config', 'G-ENQLLF2JQ3');`}
-          </script>
+          </script> */}
         </Head>
 
         <Layout>
