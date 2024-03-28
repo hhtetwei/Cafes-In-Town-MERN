@@ -16,12 +16,13 @@ export default function App({ Component, pageProps }) {
           <title>Cafes-In-Town</title>
           <Script async src="https://www.googletagmanager.com/gtag/js?id=G-ENQLLF2JQ3"></Script>
          
-          <Script 
-            >{`window.dataLayer = window.dataLayer || [];
+          <Script>
+            {`window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
 
-            gtag('config', 'G-ENQLLF2JQ3', {page_path: window.location.pathname});`} </Script>
+            gtag('config', 'G-ENQLLF2JQ3', {page_path: window.location.pathname});`}
+          </Script>
         </Head>
 
         <Layout>
