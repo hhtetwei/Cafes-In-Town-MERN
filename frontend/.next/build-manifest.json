@@ -31,6 +31,11 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/cafes/all-cafes.js"
+    ],
+    "/cafes/feedbacks": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/cafes/feedbacks.js"
     ]
   },
   "ampFirstPages": []
