@@ -12,4 +12,6 @@ export default function Home() {
   useEffect(() => {
     router.push('/cafes/all-cafes');
   });
+
+  
 }

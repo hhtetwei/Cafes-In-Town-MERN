@@ -12,6 +12,11 @@
   ],
   "rootMainFiles": [],
   "pages": {
+    "/": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/index.js"
+    ],
     "/_app": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -22,15 +27,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/cafes/feedback": [
+    "/cafes/all-cafes": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/cafes/feedback.js"
-    ],
-    "/cafes/feedbacks": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/cafes/feedbacks.js"
+      "static/chunks/pages/cafes/all-cafes.js"
     ]
   },
   "ampFirstPages": []
